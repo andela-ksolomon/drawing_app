@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="wrapper">
+    <form [formGroup]="loginForm" (ngSubmit)="loginSubmit()">
+      <h3 class="form-signin-heading"> Hey there 😎!!
+        <br />Please Login In</h3>
+      <hr class="colorgraph" />
+      <br />
+      <input type="text" formControlName="username" class="form-control" name="username" placeholder="username" required="" autofocus="" />
+      <input type="password" formControlName="password" class="form-control" name="password" placeholder="password" required="" />
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+      <h4 class="form-signin-cred"> Test username: besho
+        <br />Test password: 123</h4>
+    </form>
+  </div>
+</div>

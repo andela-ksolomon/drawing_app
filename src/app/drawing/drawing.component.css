@@ -1,0 +1,7 @@
+.canvas_wrapper_div canvas {
+  height: 500px !important;
+  width: 100% !important;
+}
+.panel-default {
+  margin-top: 200px;
+}
